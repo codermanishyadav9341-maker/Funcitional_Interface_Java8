@@ -16,5 +16,18 @@ class Result18 implements OverrideStatic{
         System.out.println("Sleeping");
     }
 
+    static void eat(){
+        System.out.println("Eating.......");
+    }
+
+
+    public static void main(String[] args){
+        Result18 rr = new Result18();
+
+
+        rr.so();
+        OverrideStatic.eat();
+
+    }
 
 }
