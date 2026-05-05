@@ -21,7 +21,7 @@ class Result3 implements Positive{
         System.out.print("Enter your number:- ");
         int num = scan.nextInt();
 
-        System.out.println("Positive number is:- " +positive(num));
+        System.out.println("PositiveCheck number is:- " +positive(num));
     }
 
     public static void main(String[] args){
