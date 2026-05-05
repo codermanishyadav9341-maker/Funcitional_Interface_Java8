@@ -23,8 +23,8 @@ class Result7 implements Divisible{
         System.out.print("Enter your number:- ");
         int num = scan.nextInt();
 
-        System.out.println("Divisible by 5 is:- " +divide(num));
-        System.out.println("Positive number is:- " +isPositive.test(num));
+        System.out.println("DivisibleCheck by 5 is:- " +divide(num));
+        System.out.println("PositiveCheck number is:- " +isPositive.test(num));
 
     }
 
