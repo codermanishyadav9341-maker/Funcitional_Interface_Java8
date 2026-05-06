@@ -8,7 +8,7 @@ public class UpperCase {
 
         Predicate<String> isUpperCase = str -> str != null && str.equals(str.toUpperCase());
 
-        System.out.print("Enter your Character:- ");
+        System.out.print("Enter your Letter:- ");
         String str = scan.nextLine();
 
 

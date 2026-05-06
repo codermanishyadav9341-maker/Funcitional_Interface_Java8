@@ -10,5 +10,5 @@ public interface NumberPresent {
 //class Result10 implements NumberPresent{
 //    Scanner scan = new Scanner(System.in);
 //
-//    Predicate<String> isNumber = str -> str != null && str.charAt.AnyMatc(Character: )
+//    Predicate<String> isNumber = str -> str != null && str.charAt.AnyMatc(Letter: )
 //}

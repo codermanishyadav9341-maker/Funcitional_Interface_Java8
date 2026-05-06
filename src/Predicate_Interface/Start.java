@@ -9,7 +9,7 @@ public class Start {
 
         Predicate<String> isStart = str -> str != null && str.startsWith("M");
 
-        System.out.print("Enter your Character:- ");
+        System.out.print("Enter your Letter:- ");
         String str = scan.nextLine();
 
 
