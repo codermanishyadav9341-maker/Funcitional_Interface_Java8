@@ -13,7 +13,7 @@ class Result19{
         StringLen sl = (s)  ->
                 System.out.println("String Length is:- " +s.length());
 
-        System.out.print("Enter your Character:- ");
+        System.out.print("Enter your Letter:- ");
         String s = scan.next();
 
         sl.lenImpl(s);

@@ -13,7 +13,7 @@ class result21{
         LowerCase lp = (s) ->
                 System.out.println("LowerCase:- " +s.toLowerCase());
 
-        System.out.print("Enter your Character:- ");
+        System.out.print("Enter your Letter:- ");
         String s = scan.next();
 
         lp.check(s);

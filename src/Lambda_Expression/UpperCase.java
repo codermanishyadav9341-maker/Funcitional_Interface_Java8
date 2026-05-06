@@ -13,7 +13,7 @@ class Result20{
         UpperCase up = (s) ->
                 System.out.print("UpperCase:- " +s.toUpperCase());
 
-        System.out.print("Enter your Character:- ");
+        System.out.print("Enter your Letter:- ");
         String s = scan.next();
 
         up.check(s);

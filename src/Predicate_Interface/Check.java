@@ -8,7 +8,7 @@ public class Check {
 
         Predicate<String> isLetter = str -> str != null && str.contains("Java");
 
-        System.out.print("Enter your Character:- ");
+        System.out.print("Enter your Letter:- ");
         String str = scan.nextLine();
 
         System.out.println("Letter Java is:- " +isLetter.test(str));

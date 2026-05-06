@@ -9,7 +9,7 @@ public class LowerCase {
 
         Predicate<String> isLower = str -> str != null && str.equals(str.toLowerCase());
 
-        System.out.print("Enter your Character:- ");
+        System.out.print("Enter your Letter:- ");
         String str = scan.nextLine();
 
 
