@@ -3,7 +3,6 @@ package Reduce_StreamAPI;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Optional;
 public class Reverse {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -28,7 +27,6 @@ public class Reverse {
                                 },
                                 (a, b) -> a
                         );
-
-        System.out.println(result);
+          System.out.println(result);
     }
 }

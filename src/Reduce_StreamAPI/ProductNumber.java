@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import  java.util.Optional;
 public class ProductNumber {
     public static void main(String[] args){
+
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter Size:- ");
@@ -23,6 +24,7 @@ public class ProductNumber {
                         .reduce((a,b) -> a*b);
 
         System.out.println("Product of all elements:- " +result.orElse(1));
+
 
     }
 }
