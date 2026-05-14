@@ -1,9 +1,9 @@
-package AllMatch_StreamAPI;
+package NoneMatch_StreamAPI;
 
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class LowerCase {
+public class StartString {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -11,19 +11,18 @@ public class LowerCase {
         int size = scan.nextInt();
         scan.nextLine();
 
-        List<String> letters = new ArrayList<>();
+        List<String> letters  = new ArrayList<>();
 
-        System.out.println("Enter Characters:- ");
+        System.out.println("Enter your Array elements:- ");
         for(int i = 0; i<size; i++){
             letters.add(scan.nextLine());
         }
 
         boolean result =
                 letters.stream()
-                        .allMatch(str -> str.equals(str.toLowerCase()));
+                        .noneMatch(str -> str.startsWith("M"));
 
-        System.out.println(result);
+        System.out.println("No String start with M is:- " +result);
         scan.close();
-
     }
 }
