@@ -1,9 +1,10 @@
-package AllMatch_StreamAPI;
+package NoneMatch_StreamAPI;
 
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class LowerCase {
+
+public class EmptyString {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -20,10 +21,9 @@ public class LowerCase {
 
         boolean result =
                 letters.stream()
-                        .allMatch(str -> str.equals(str.toLowerCase()));
+                        .noneMatch(str -> str.isEmpty());
 
-        System.out.println(result);
+        System.out.println("No Empty String is:- " +result);
         scan.close();
-
     }
 }
