@@ -1,9 +1,10 @@
 package Basic_StreamAPI;
 
+import java.util.Comparator;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class AscendingOrder {
+public class DescendingOrder {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -19,11 +20,10 @@ public class AscendingOrder {
 
         List<Integer> result =
                 numbers.stream()
-                        .sorted()
+                        .sorted(Comparator.reverseOrder())
                         .toList();
 
-        System.out.println("Ascending Order:- " +result);
-
+        System.out.println("Descending Order:- " +result);
         scan.close();
     }
 }
