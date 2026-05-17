@@ -3,7 +3,8 @@ package Basic_StreamAPI;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class AscendingOrder {
+import java.util.Optional;
+public class MaxElement {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -17,13 +18,14 @@ public class AscendingOrder {
             numbers.add(scan.nextInt());
         }
 
-        List<Integer> result =
+        Optional<Integer> result =
                 numbers.stream()
-                        .sorted()
-                        .toList();
+                        .reduce((a,b) -> a>b ? a: b);
 
-        System.out.println("Ascending Order:- " +result);
+        System.out.println("Maximum number is:- " +result.get());
 
         scan.close();
+
+
     }
 }
