@@ -1,9 +1,9 @@
-package BasicStreamAPI;
+package Basic_MapAPI;
 
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class LessThan {
+public class Divide {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -17,12 +17,13 @@ public class LessThan {
             numbers.add(scan.nextInt());
         }
 
+
         List<Integer> result =
                 numbers.stream()
-                        .filter(num -> num < 20)
+                        .map(num -> num/2)
                         .toList();
 
-        System.out.println("LessThan < 20 is:- " +result);
+        System.out.println("Is Divisible by 2:- " +result);
 
         scan.close();
     }

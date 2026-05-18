@@ -1,9 +1,9 @@
-package BasicStreamAPI;
+package Basic_MapAPI;
 
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class LessThan {
+public class Minus {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -19,10 +19,10 @@ public class LessThan {
 
         List<Integer> result =
                 numbers.stream()
-                        .filter(num -> num < 20)
+                        .map(num -> num-50)
                         .toList();
 
-        System.out.println("LessThan < 20 is:- " +result);
+        System.out.println("Is Array elements minus 50 is:- " +result);
 
         scan.close();
     }
