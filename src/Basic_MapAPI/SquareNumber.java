@@ -1,9 +1,9 @@
-package BasicStreamAPI;
+package Basic_MapAPI;
 
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class LessThan {
+public class SquareNumber {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -19,10 +19,10 @@ public class LessThan {
 
         List<Integer> result =
                 numbers.stream()
-                        .filter(num -> num < 20)
+                        .map(num -> num*num)
                         .toList();
 
-        System.out.println("LessThan < 20 is:- " +result);
+        System.out.println("Is Square number is:- " +result);
 
         scan.close();
     }

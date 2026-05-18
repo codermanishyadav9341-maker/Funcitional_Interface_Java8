@@ -1,28 +1,30 @@
-package BasicStreamAPI;
+package Basic_MapAPI;
 
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class LessThan {
+
+public class UpperCase {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter Size:- ");
         int size = scan.nextInt();
+        scan.nextLine();
 
-        List<Integer> numbers = new ArrayList<>();
+        List<String> letters = new ArrayList<>();
 
         System.out.println("Enter your Array elements:- ");
         for(int i = 0; i<size; i++){
-            numbers.add(scan.nextInt());
+            letters.add(scan.nextLine());
         }
 
-        List<Integer> result =
-                numbers.stream()
-                        .filter(num -> num < 20)
+        List<String> result =
+                letters.stream()
+                        .map(String::toUpperCase)
                         .toList();
 
-        System.out.println("LessThan < 20 is:- " +result);
+        System.out.println("Is String UpperCase is:- " +result);
 
         scan.close();
     }

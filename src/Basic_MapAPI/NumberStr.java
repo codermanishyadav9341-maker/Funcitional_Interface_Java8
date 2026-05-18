@@ -1,9 +1,9 @@
-package BasicStreamAPI;
+package Basic_MapAPI;
 
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class LessThan {
+public class NumberStr {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
 
@@ -17,12 +17,12 @@ public class LessThan {
             numbers.add(scan.nextInt());
         }
 
-        List<Integer> result =
+        List<String> result =
                 numbers.stream()
-                        .filter(num -> num < 20)
+                        .map(Integer::toBinaryString)
                         .toList();
 
-        System.out.println("LessThan < 20 is:- " +result);
+        System.out.println("Is String Convert:- " +result);
 
         scan.close();
     }
