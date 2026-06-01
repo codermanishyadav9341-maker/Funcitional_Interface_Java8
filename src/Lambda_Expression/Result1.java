@@ -7,7 +7,7 @@ class Result1{
     public static void main(String[] args){
 
         Hello h = () ->{
-            System.out.println("Hello");
+            System.out.println("So");
         };
 
         h.helloImpl();

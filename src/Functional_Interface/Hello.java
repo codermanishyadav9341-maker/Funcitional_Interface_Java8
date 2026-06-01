@@ -7,7 +7,7 @@ interface Hello {
 
 class Test implements Hello{
     public void sayHello(){
-        System.out.println("Hello functionalInterface");
+        System.out.println("So functionalInterface");
     }
     public static void main(String[] args){
         Test ss = new Test();
