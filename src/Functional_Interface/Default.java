@@ -6,7 +6,7 @@ public interface Default {
     void msg();
 
     default void msg1(){
-        System.out.println("Hello Java8");
+        System.out.println("So Java8");
     }
 
 
@@ -16,7 +16,7 @@ class Result14 implements Default{
 
     @Override
     public void msg(){
-        System.out.println("Hello Interface");
+        System.out.println("So Interface");
     }
 
     static void sleep(){

@@ -9,7 +9,7 @@ class Test2 implements Test1{
 
     @Override
     public void display(){
-        System.out.println("Hello Mainsh");
+        System.out.println("So Mainsh");
     }
 
     public static void main(String[] args){

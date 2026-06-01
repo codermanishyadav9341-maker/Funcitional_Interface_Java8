@@ -10,7 +10,7 @@ class Test implements PrintHello{
 
     @Override
     public void printHello(){
-        System.out.println("Hello Java8");
+        System.out.println("So Java8");
     }
 
     public static void main(String[] args){

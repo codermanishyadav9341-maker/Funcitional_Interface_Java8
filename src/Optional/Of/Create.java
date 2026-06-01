@@ -12,7 +12,7 @@ public class Create {
 
         Optional<String> letters = Optional.of(null);
 
-        System.out.println("Hello " +letters.get());
+        System.out.println("So " +letters.get());
 
         scan.close();
 

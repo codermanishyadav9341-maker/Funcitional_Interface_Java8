@@ -9,7 +9,7 @@ class Main{
 
   public static void main(String[] args) {
 
-      So sp = () -> System.out.println("Hello Custom Interface");
+      So sp = () -> System.out.println("So Custom Interface");
 
     sp.Show();
 
