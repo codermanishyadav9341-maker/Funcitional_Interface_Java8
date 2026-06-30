@@ -22,7 +22,6 @@ class EvenImpl implements EvenNumber{
 
         EvenImpl even = new EvenImpl();
         even.checkEven(num);
-
         scan.close();
     }
 }
