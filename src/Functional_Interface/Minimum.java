@@ -8,6 +8,7 @@ public interface Minimum {
 }
 
 class Result11 implements Minimum{
+    @Override
     public int min(int a, int b){
         return (a<b) ? a:b;
     }
