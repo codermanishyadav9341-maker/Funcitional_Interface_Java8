@@ -22,6 +22,7 @@ class AbsoluteImpl  implements AbsoluteNumber{
         AbsoluteNumber  absolute = new AbsoluteImpl();
         absolute.printAbsolute(num);
 
+
         scan.close();
     }
 }
