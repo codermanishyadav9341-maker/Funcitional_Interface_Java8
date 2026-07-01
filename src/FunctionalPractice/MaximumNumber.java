@@ -1,0 +1,34 @@
+package FunctionalPractice;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+@FunctionalInterface
+public interface MaximumNumber {
+    void checkMaximum(int num1 ,int num2);
+}
+
+class MaximumImpl implements MaximumNumber{
+
+    @Override
+    public void checkMaximum(int num1,int num2){
+        int result = Math.max(num1,num2);
+        System.out.println("Maximum number is:- " +result);
+    }
+
+    public static void main(String[] args){
+        try(Scanner scan = new Scanner(System.in)){
+
+            System.out.print("Enter your first number:- ");
+            int num1 = scan.nextInt();
+
+            System.out.print("Enter your Second number:- ");
+            int num2 = scan.nextInt();
+
+            MaximumNumber maximum = new MaximumImpl();
+            maximum.checkMaximum(num1,num2);
+        }
+         catch(InputMismatchException e){
+            System.out.println("Invalid input");
+         }
+    }
+}
