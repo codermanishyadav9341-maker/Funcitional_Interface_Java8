@@ -11,6 +11,7 @@ public class StringUppercase {
             System.out.print("Enter characters:- ");
             String str = scan.nextLine();
 
+
             System.out.println("Check Uppercase:- " +isUppercase.test(str));
 
         }
