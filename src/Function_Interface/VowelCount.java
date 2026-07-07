@@ -19,7 +19,7 @@ public class VowelCount {
         System.out.print("Enter Letter:- ");
         String str = scan.nextLine();
 
-        System.out.println("Vowel counts:- " +vowels.apply(str));
+        System.out.println("CheckVowel counts:- " +vowels.apply(str));
 
     }
 }
