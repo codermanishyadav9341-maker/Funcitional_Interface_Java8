@@ -28,7 +28,7 @@ public class Vowel {
                         .sorted()
                         .toList();
 
-        System.out.println("Words Start with Vowel letters:- " +result);
+        System.out.println("Words Start with CheckVowel letters:- " +result);
 
 
     }

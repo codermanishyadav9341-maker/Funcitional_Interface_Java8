@@ -16,7 +16,7 @@ public class Vowel {
         System.out.print("Enter your Characters:- ");
         char ch = scan.next().charAt(0);
 
-        System.out.println("Is check Vowel is:- " +isVowel.test(ch));
+        System.out.println("Is check CheckVowel is:- " +isVowel.test(ch));
 
 
     }

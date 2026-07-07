@@ -33,7 +33,7 @@ public class StartVowel {
                         .filter(str-> str.startsWith("E"))
                         .collect(Collectors.toList());
 
-        System.out.print("\nStart Vowel:- "  +vowel);
+        System.out.print("\nStart CheckVowel:- "  +vowel);
 
     }
 }
