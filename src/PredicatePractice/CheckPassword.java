@@ -12,6 +12,7 @@ public class CheckPassword {
             String str = scan.nextLine();
 
             System.out.println("Check password:- " +isPassword.test(str));
+
         }
     }
 }
